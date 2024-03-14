@@ -105,6 +105,9 @@ div#container {
 
 /********** Medium devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
+  #titulo-fijo{
+    font-size: 15px;
+  }
   .cambio-text{
     padding-top: 4%;
     width: 95%;
@@ -153,6 +156,9 @@ div#container {
 }
 /********** Small devices only **********/
 @media (max-width: 767px) {
+  #titulo-fijo{
+    font-size: 15px;
+  }
   .cambio-text{
     padding-top: 8%;
   }
