@@ -8,6 +8,7 @@ h1 {
   margin-top: 45px;
   margin-bottom: 15px;
   text-align: center;
+  font-size: 1.75em;
 }
 
 p {
@@ -22,6 +23,7 @@ p {
   padding-right: 10px;
   padding-left: 10px;
   overflow: auto;
+  font-size: 1em;
 }
 div#container {
   position: relative;
@@ -36,7 +38,7 @@ div#container {
   width: 20%;
   height: 30px;
   text-align: center;
-  font-size: 20px;
+  font-size: 1.25em;
   font-family: Helvetica;
   padding: 5px 7px 0px 7px;
 }
@@ -106,7 +108,7 @@ div#container {
 /********** Medium devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
   #titulo-fijo{
-    font-size: 15px;
+    font-size: 1.25em;
   }
   .cambio-text{
     padding-top: 4%;
@@ -157,7 +159,7 @@ div#container {
 /********** Small devices only **********/
 @media (max-width: 767px) {
   #titulo-fijo{
-    font-size: 15px;
+    font-size: 1.25em;
   }
   .cambio-text{
     padding-top: 8%;
