@@ -118,12 +118,29 @@ div#container {
 }
 
 /********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 820px) {
+  #titulo-fijo-sushi{
+    right: 20px;
+  }
+}
+@media (min-width: 821px) and (max-width: 900px) {
+  #titulo-fijo-sushi{
+    right: 22px;
+  }
+}
+@media (min-width: 901px) and (max-width: 945px) {
+  #titulo-fijo-sushi{
+    right: 23px;
+  }
+}
+@media (min-width: 946px) and (max-width: 991px) {
+  #titulo-fijo-sushi{
+    right: 25px;
+  }
+}
 @media (min-width: 768px) and (max-width: 991px) {
   #titulo-fijo{
     font-size: 1.25em;
-  }
-  #titulo-fijo-sushi{
-    right: 22px;
   }
   .cambio-text{
     padding-top: 4%;
