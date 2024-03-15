@@ -19,7 +19,7 @@ p {
   margin-right: auto;
   margin-left: auto;
   font-family: Helvetica;
-  padding-top: 8%;
+  padding-top: 10%;
   padding-right: 10px;
   padding-left: 10px;
   overflow: auto;
@@ -35,8 +35,20 @@ div#container {
   position: absolute;
   top: 0;
   right: 5%;
-  width: 20%;
-  height: 30px;
+  width: 30%;
+  height: 32px;
+  text-align: center;
+  font-size: 1.25em;
+  font-family: Helvetica;
+  padding: 5px 7px 0px 7px;
+}
+#titulo-fijo-sushi {
+  border: 1px solid black;
+  position: absolute;
+  top: 0;
+  right: 5%;
+  width: 30%;
+  height: 32px;
   text-align: center;
   font-size: 1.25em;
   font-family: Helvetica;
@@ -109,6 +121,8 @@ div#container {
 @media (min-width: 768px) and (max-width: 991px) {
   #titulo-fijo{
     font-size: 1.25em;
+  }
+  #titulo-fijo-sushi{
     right: 22px;
   }
   .cambio-text{
@@ -162,6 +176,7 @@ div#container {
 @media (max-width: 767px) {
   #titulo-fijo{
     font-size: 1.25em;
+    right: 5%;
   }
   .cambio-text{
     padding-top: 8%;
